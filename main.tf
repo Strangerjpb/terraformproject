@@ -14,7 +14,7 @@ resource "aws_instance" "ec2_example" {
 
 resource "aws_ebs_volume" "example" {
   availability_zone = "ap-south-1a"
-  size              = 20
+  size              = 30
 
   tags = {
     Name = "HelloWorld"
